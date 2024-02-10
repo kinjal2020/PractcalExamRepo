@@ -4,11 +4,11 @@ public class ToyCartModel {
 
     public String toyName;
     public  int qty;
-    public double toyPrice;
+    public int toyPrice;
     public String description;
-    public double rate;
+    public int rate;
 
-    public ToyCartModel(String toyName, String description, double toyPrice, double rate,int qty) {
+    public ToyCartModel(String toyName, String description, int toyPrice, int rate,int qty) {
         this.description = description;
         this.toyName = toyName;
         this.toyPrice = toyPrice;
